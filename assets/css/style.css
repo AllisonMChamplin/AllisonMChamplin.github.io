@@ -49,7 +49,7 @@ tr {
 
 /* My Theme */
 
-.col-lg-8 img {
+#contact img {
     float: left;
     width: 20%;
     margin-bottom: 18%;
@@ -58,39 +58,54 @@ tr {
 }
 
 #about {
-    background-color: #4A4E69;
-    color: #f1e8e3;
+    /* background-color: #4A4E69; */
+    /* color: #f1e8e3; */
 }
 
-#services {
-    background-color: #998b97;
+#projects {
+    /* background-color: #998b97; */
+    /* text-align: center; */
 }
 
 #experience {
-    background-color: #c8aca6;
+    /* background-color: #c8aca6; */
 }
 
 #education {
-    background-color: #f1e8e3;
-    color: #4A4E69;
+    /* background-color: #f1e8e3;
+    color: #4A4E69; */
 }
 
 #contact {
-    background-color: #4A4E69;
-    color: #c8aca6;
+    /* background-color: #4A4E69;
+    color: #c8aca6; */
 }
 
 /* Color Scheme */
-.color1 {background-color: #1a1a1d}; /* Eerie Black */
-.color2 {background-color: #363e50}; /* Charcoal */
-.color3 {background-color: #57a3af}; /* Cadet Blue */
-.color4 {background-color: #a8bbcf}; /* Pastel Blue */
-.color5 {background-color: #d7dae1}; /* Gainsboro */
+ .color2 {background-color: #0e5156; color:  #d7dae1} 
+ .color1 {background-color: #0b3041; color:  #d7dae1} 
+ .color3 {background-color: #9b91a2;} 
+ .color4 {background-color: #c5b8cc} 
+ .color5 {background-color: #d5d2ef} 
 
-/* Color Scheme */
-.color1 {background-color: #22223B}; /* Yankee Blue */
-.color2 {background-color: #4A4E69}; /* Independence */
-.color3 {background-color: #998b97}; /* Spanish Gray */
-.color4 {background-color: #c8aca6}; /* Silver Pink */
-.color5 {background-color: #f1e8e3}; /* Alabaster */
+ .positive {
+     background-image: url(../images/positive.png);
+ }
 
+ .dark-primary-color    { background: #0a2241; }
+ .default-primary-color { background: #2aa48d; }
+ .light-primary-color   { background: #83bb9c; }
+ .text-primary-color    { color: #FFFFFF; }
+ .accent-color          { background: #f36196; }
+ .primary-text-color    { color: #212121; }
+ .secondary-text-color  { color: #757575; }
+ .divider-color         { border-color: #BDBDBD; }
+
+ .project-image {
+    -webkit-box-shadow: -21px 18px 21px 0px rgba(122,122,122,0.64);
+    -moz-box-shadow: -21px 18px 21px 0px rgba(122,122,122,0.64);
+    box-shadow: -21px 18px 21px 0px rgba(122,122,122,0.64);
+    width: 50%; 
+    border-radius: 10px; 
+    border:2px solid white;
+ }
