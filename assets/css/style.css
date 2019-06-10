@@ -5,6 +5,7 @@ html {
 body {
     font-family: 'Karla', sans-serif;
     font-Size: 18px;
+    color: #666;
 }
 
 h1, h2, h3, h4, h5 {
@@ -91,12 +92,36 @@ section#services {
 }
 
 /* Color Scheme */
- .color2 {background-color: #0e5156; color:  #d7dae1;} 
+ /* .color2 {background-color: #0e5156; color:  #d7dae1;} 
  .color1 {background-color: #0b3041; color:  #d7dae1;} 
  .color3 {background-color: #9b91a2;} 
  .color4 {background-color: #c5b8cc;} 
  .color5 {background-color: #d5d2ef;} 
- .color6 {background-color: #f7f7f8;}
+ .color6 {background-color: #f7f7f8;} */
+
+
+ .color2 {background-color: #2aa48d; color:  #fff;} 
+ .color1 {background-color: #0a2241; color:  #fff;} 
+ .color3 {background-color: #83bb9c;} 
+ .color4 {background-color: #fefcf6;} 
+ .color5 {background-color: #f36196; color: #fefcf6;} 
+ .color6 {background-color: #fefcf6;}
+ 
+.color3 h2, .color3 .lead {
+    color: #fff;
+}
+
+.color4 h2 {
+    color: #2aa48d;
+}
+
+ .color5 a, .color5 a:visited {
+     color: #fff;
+ }
+
+ .color5 h2 {
+     color: #fbe180;
+ }
 
  .positive {
      background-image: url(../images/positive.png);
@@ -143,7 +168,8 @@ section#services {
  }
 
  .card {
-     background: none;
+     /* background: none; */
+     padding: 25px;
      margin-bottom: 40px !important;
      border: none;
  }
@@ -159,4 +185,9 @@ section#services {
 
  div {
      /* border: 2px solid gray; */
+ }
+
+ .school-logo {
+    width: 55px;
+    margin-right: 10px;
  }
