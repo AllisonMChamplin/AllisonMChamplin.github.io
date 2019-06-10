@@ -111,11 +111,21 @@ section#services {
     color: #fff;
 }
 
+
+
 .color4 h2 {
     color: #2aa48d;
 }
 
  .color5 a, .color5 a:visited {
+     color: #fff;
+ }
+
+ .color3 h2 {
+    color: #fff;
+ }
+
+ .color3 h4 {
      color: #fff;
  }
 
@@ -190,4 +200,24 @@ section#services {
  .school-logo {
     width: 55px;
     margin-right: 10px;
+ }
+
+ .lake {
+     background-image: url('../images/lake3.png');
+     background-position: bottom -100px;
+     background-repeat: no-repeat;
+ }
+
+ #projects h4 {
+     color: #2aa48d;
+ }
+
+ .card-text {
+     color: #333;
+ }
+
+ #about li {
+     margin-left: 50px;
+     font-weight: bold;
+     list-style-type: none;
  }
