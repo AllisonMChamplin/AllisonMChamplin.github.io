@@ -4,7 +4,7 @@ html {
 
 body {
     font-family: 'Karla', sans-serif;
-    font-Size: 15px;
+    font-Size: 18px;
 }
 
 h1, h2, h3, h4, h5 {
@@ -60,9 +60,18 @@ tr {
 #about {
     /* background-color: #4A4E69; */
     /* color: #f1e8e3; */
+
 }
 
-#projects {
+#about a, #about a:visited {
+    color:#fff9c7;
+}
+
+#about a:hover {
+    color: #fbe180;
+}
+
+section#services {
     /* background-color: #998b97; */
     /* text-align: center; */
 }
@@ -82,11 +91,12 @@ tr {
 }
 
 /* Color Scheme */
- .color2 {background-color: #0e5156; color:  #d7dae1} 
- .color1 {background-color: #0b3041; color:  #d7dae1} 
+ .color2 {background-color: #0e5156; color:  #d7dae1;} 
+ .color1 {background-color: #0b3041; color:  #d7dae1;} 
  .color3 {background-color: #9b91a2;} 
- .color4 {background-color: #c5b8cc} 
- .color5 {background-color: #d5d2ef} 
+ .color4 {background-color: #c5b8cc;} 
+ .color5 {background-color: #d5d2ef;} 
+ .color6 {background-color: #f7f7f8;}
 
  .positive {
      background-image: url(../images/positive.png);
@@ -101,11 +111,52 @@ tr {
  .secondary-text-color  { color: #757575; }
  .divider-color         { border-color: #BDBDBD; }
 
- .project-image {
+ .shadow {
     -webkit-box-shadow: -21px 18px 21px 0px rgba(122,122,122,0.64);
     -moz-box-shadow: -21px 18px 21px 0px rgba(122,122,122,0.64);
     box-shadow: -21px 18px 21px 0px rgba(122,122,122,0.64);
-    width: 50%; 
-    border-radius: 10px; 
-    border:2px solid white;
+ }
+
+ .project {
+     background: #fff;
+ }
+
+ .card-img {
+     border: 1px solid #fff;
+     /* padding-right: 10px; */
+ }
+
+ .card-img:hover {
+     /* border: 5px solid #c5b8cc; */
+ }
+
+ .card-body {
+     /* background: none !important; */
+ }
+
+ .card-body a, .card-body a:visited {
+    color:#0e5156;
+ }
+
+ .card-body a:hover {
+    color: #0b3041;
+ }
+
+ .card {
+     background: none;
+     margin-bottom: 40px !important;
+     border: none;
+ }
+
+ .card img {
+    /* padding: 10px; */
+    border-radius: 15px;
+ }
+
+ .card h5 {
+     color: #9b91a2;
+ }
+
+ div {
+     /* border: 2px solid gray; */
  }

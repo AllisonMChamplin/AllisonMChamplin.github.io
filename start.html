@@ -33,11 +33,11 @@
                         <a class="nav-link js-scroll-trigger" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#services">Projects</a>
+                        <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
                     </li>
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
-                    </li>
+                    </li> -->
                     <li class="nav-item">
                         <a class="nav-link js-scroll-trigger" href="#education">Education</a>
                     </li>
@@ -60,34 +60,100 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 mx-auto">
-                    <h1>Allison Champlin</h1><br>
+                    <h1 style="color: #fce181">Allison Champlin</h1>
                     <h2>Full Stack Web Developer</h2>
                     <p class="lead">Future-oriented full-stack developer who is passionate about thoughtful,
                         efficient code and advancing standards, security and accessibility.</p>
-                    <ul>
-                        <li>Website: website.com</li>
-                        <li>Email: email.com</li>
-                        <li>Twin Cities, Minnesota</li>
-                    </ul>
+                    <li>Website: <a href="https://allisonmchamplin.github.io/">allisonmchamplin.github.io/</a></li>
+                    <li>Email: <a href="mailto:allisonmchamplin@gmail.com">AllisonMChamplin@gmail.com</a></li>
+                    <li>Twin Cities, Minnesota</li>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="projects" class="color5">
+    <section id="projects" class="color6">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 mx-auto">
                     <h2>Projects</h2>
-                    <p class="lead">Aut optio velit inventore,
-                            expedita quo laboriosam possimus ea consequatur vitae dignissimos.</p>
-                    <img class="project-image" src="./assets/images/trivia.jpg">
+                    <p class="lead">Here's a selection of some recent projects:<br><br></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+
+                    <div class="card">
+                        <div class="row no-gutters">
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h4 class="card-title">Trivia Game</h4>
+                                    <p class="card-text">A Lord of the Rings Trivia game using JavaScript for the logic
+                                        and jQuery to manipulate HTML.</p>
+                                    <p class="card-text"><small class="text-muted">
+                                            <a href="https://allisonmchamplin.github.io/TriviaGame/"
+                                                target="_blank" title="Visit the Trivia Game Site">&raquo; Visit Site</a><br>
+                                            <a href="https://github.com/AllisonMChamplin/TriviaGame"
+                                                target="_blank" title="View the Trivia Game Source">&raquo; View Source</a>
+                                        </small></p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <img src="./assets/images/trivia.jpg" class="card-img shadow"
+                                    alt="Screenshot of the Trivia Game">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="row no-gutters">
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h4 class="card-title">Hollywood GifTastic</h4>
+                                    <p class="card-text">Using the GIPHY API and the OMDB API to
+                                        make a dynamic web page that populates with movie info and gifs.</p>
+                                    <p class="card-text"><small class="text-muted">
+                                            <a href="https://allisonmchamplin.github.io/GifTastic/"
+                                                target="_blank" title="Visit the Hollywood GifTastic Site">&raquo; Visit Site</a><br>
+                                            <a href="https://github.com/AllisonMChamplin/GifTastic"
+                                                target="_blank" title="View the Hollywood GifTastic Source">&raquo; View Source</a>
+                                        </small></p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <img src="./assets/images/giftastic.jpg" class="card-img shadow"
+                                    alt="Screenshot of Hollywood GifTastic">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="row no-gutters">
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h4 class="card-title">Train Scheduler</h4>
+                                    <p class="card-text">A train schedule application that incorporates Firebase to host arrival and departure data.</p>
+                                    <p class="card-text"><small class="text-muted">
+                                            <a href="https://allisonmchamplin.github.io/Train-Scheduler/"
+                                                target="_blank" title="Visit the Train Scheduler Site">&raquo; Visit Site</a><br>
+                                            <a href="https://github.com/AllisonMChamplin/Train-Scheduler"
+                                                target="_blank" title="View the Train Scheduler Source">&raquo; View Source</a>
+                                        </small></p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <img src="./assets/images/train-scheduler.jpg" class="card-img shadow"
+                                    alt="Screenshot of Train Scheduler">
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="experience" class="color4">
+    <!-- <section id="experience" class="color5">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 mx-auto">
@@ -98,9 +164,9 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
-    <section id="education" class="color3">
+    <section id="education" class="color4">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 mx-auto">
@@ -114,15 +180,14 @@
         </div>
     </section>
 
-    <section id="contact">
+    <section id="contact" class="color5">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 mx-auto">
                     <img src="assets/images/avatar.png">
                     <h2>Contact me</h2>
-                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero odio fugiat
-                        voluptatem dolor, provident officiis, id iusto! Obcaecati incidunt, qui nihil beatae magnam et
-                        repudiandae ipsa exercitationem, in, quo totam.</p>
+                    <p class="lead">I'd love to hear from you! <br><br>
+                    <a href="mailto:allisonmchamplin@gmail.com">Email Me</a></p>
                 </div>
             </div>
         </div>
