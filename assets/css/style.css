@@ -58,11 +58,6 @@ tr {
     /* color: #fff; */
 }
 
-#about {
-    /* background-color: #4A4E69; */
-    /* color: #f1e8e3; */
-
-}
 
 #about a, #about a:visited {
     color:#fff9c7;
@@ -203,9 +198,24 @@ section#services {
  }
 
  .lake {
-     background-image: url('../images/lake3.png');
-     background-position: bottom -100px;
+     background-image: url('../images/lake6.png');
+     background-position-x: center;
+     background-position-y: bottom;
      background-repeat: no-repeat;
+     background-size: 1824px auto;
+ }
+
+ .forest {
+    background-image: url('../images/forest2.png');
+    background-position-x: center;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    background-size: 2824px auto;
+ }
+
+ .positive {
+     background-image: url('../images/positive2.png');
+     background-repeat: repeat;
  }
 
  #projects h4 {
@@ -220,4 +230,12 @@ section#services {
      margin-left: 50px;
      font-weight: bold;
      list-style-type: none;
+ }
+
+ .email {
+    /* background: #fff; */
+    border: 1px solid white;
+    padding: 20px 68px;
+    border-radius: 5px;
+    color: #f36196;
  }
