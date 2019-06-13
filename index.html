@@ -6,51 +6,194 @@
   <!-- <meta name="google" content="notranslate"> -->
   <meta http-equiv="Content-Language" content="en">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Nunito|Open+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/reset.css" type="text/css">
   <link rel="stylesheet" href="assets/css/style.css" type="text/css">
 
-  <title>Portfolio</title>
+  <script src="https://kit.fontawesome.com/4abb2f7c48.js"></script>
+
+  <title>Allison Champlin - Allison Champlin</title>
 
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#navbarTarget" id="page-top">
 
-  <header>
-    <div class="container-fluid">
+  <nav class="navbar navbar-expand-md fixed-top navbar-dark nav-height color1">
+    <!-- <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark nav-height"> -->
+
+    <a class="navbar-brand" href="#page-top">Allison Champlin</a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTarget"
+      aria-controls="navbarTarget" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarTarget">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#page-top">About Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#education">Education</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <section id="home" class="color1 lake">
+    <div class="container">
       <div class="row">
-        <div class="col">
-          <h1 id="title"><a href="#"><strong>Portfolio</strong></a></h1>
+        <div class="col-lg-10 mx-auto">
+          <img src="assets/images/avatar.png">
+          <h3>Hi, I'm Allison!</h3>
+          <p class="lead">I am a future-oriented full-stack developer student who is passionate about thoughtful,
+            efficient code and advancing standards, security and accessibility.<br><br></p>
+          <li> &raquo; Location: Twin Cities, Minnesota</li>
+          <li> &raquo; Email: <a href="mailto:allisonmchamplin@gmail.com">AllisonMChamplin@gmail.com</a></li>
+          <li> &raquo; Website: <a href="https://allisonmchamplin.github.io/">allisonmchamplin.github.io/</a></li>
         </div>
       </div>
     </div>
-  </header>
+  </section>
 
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col">
-        <a href="start.html">CLICKY</a>
+
+  <section id="projects" class="color2 forest">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10 mx-auto">
+          <h3>Projects</h3>
+          <p class="lead">Here is a selection of some of my recent projects:<br><br></p>
+          <div class="card shadow">
+            <div class="row no-gutters">
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h4 class="card-title">Trivia Game</h4>
+                  <p class="card-text">A Lord of the Rings Trivia game using JavaScript for the logic
+                    and jQuery to manipulate HTML.<br><br></p>
+                  <p class="card-text">
+                    <a href="https://allisonmchamplin.github.io/TriviaGame/" target="_blank"
+                      title="Visit the Trivia Game Site">&raquo; Visit Site</a><br>
+                    <a href="https://github.com/AllisonMChamplin/TriviaGame" target="_blank"
+                      title="View the Trivia Game Source">&raquo; View Source</a>
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <img src="./assets/images/trivia.jpg" class="card-img" alt="Screenshot of the Trivia Game">
+              </div>
+            </div>
+          </div>
+          <div class="card shadow">
+            <div class="row no-gutters">
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h4 class="card-title">Hollywood GifTastic</h4>
+                  <p class="card-text">Using the GIPHY API and the OMDB API to
+                    make a dynamic web page that populates with movie info and gifs.<br><br></p>
+                  <p class="card-text">
+                    <a href="https://allisonmchamplin.github.io/GifTastic/" target="_blank"
+                      title="Visit the Hollywood GifTastic Site">&raquo; Visit Site</a><br>
+                    <a href="https://github.com/AllisonMChamplin/GifTastic" target="_blank"
+                      title="View the Hollywood GifTastic Source">&raquo; View Source</a>
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <img src="./assets/images/giftastic.jpg" class="card-img" alt="Screenshot of Hollywood GifTastic">
+              </div>
+            </div>
+          </div>
+          <div class="card shadow">
+            <div class="row no-gutters">
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h4 class="card-title">Train Scheduler</h4>
+                  <p class="card-text">A train schedule application that incorporates Firebase to host arrival and
+                    departure data.<br><br></p>
+                  <p class="card-text">
+                    <a href="https://allisonmchamplin.github.io/Train-Scheduler/" target="_blank"
+                      title="Visit the Train Scheduler Site">&raquo; Visit Site</a><br>
+                    <a href="https://github.com/AllisonMChamplin/Train-Scheduler" target="_blank"
+                      title="View the Train Scheduler Source">&raquo; View Source</a>
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <img src="./assets/images/train-scheduler.jpg" class="card-img" alt="Screenshot of Train Scheduler">
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
+  </section>
 
-  <div class="container-fluid">
-    <div class="row">
-      <footer>
-        <div class="col">&copy; Copyright 2019</div>
-      </footer>
+
+  <section id="education" class="color3 frozen">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10 mx-auto">
+          <h3>Education</h3>
+          <p class="lead">I am currently enrolled in the coding boot camp through the University of Minnesota Twin
+            Cities. I graduate in October.<br><br></p>
+          <img src="./assets/images/uofmlogo.png" alt="University of Minnesota" class="school-logo">
+          <h4>Full Stack Web Developer Boot Camp</h4>
+          <p class="lead">University of Minnesota - <em>Summer 2019 </em>|<em> St. Paul, MN</em></p><br><br>
+          <hr><br><br>
+          <h4><img src="./assets/images/stolaflogo.png" alt="St. Olaf College" class="school-logo">B.A. in Biology</h4>
+          <p class="lead">St. Olaf College - <em>1996 - 2000 </em>|<em> Northfield, MN</em></p><br><br><br><br>
+        </div>
+      </div>
     </div>
-  </div>
+  </section>
 
 
+  <section id="contact" class="color1">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10 mx-auto">
+          <h3>Contact</h3>
+          <p class="lead">I'd love to hear from you! <br><br>
+          <a href="mailto:allisonmchamplin@gmail.com" class="email">Email Me</a></p>
+          <li> <span class="fas fa-map-marker-alt"></span>Location: Twin Cities, Minnesota</li>
+          <li> <span class="fas fa-envelope"></span>Email: <a href="mailto:allisonmchamplin@gmail.com">AllisonMChamplin@gmail.com</a></li>
+          <li> <span class="fas fa-file"></span>Website: <a href="https://allisonmchamplin.github.io/">allisonmchamplin.github.io/</a></li>
+        </div>
+      </div>
+    </div>
+  </section>
 
 
+  <footer class="color1">
+    <div class="col">
+      <p><br><br></p><p><br><br></p><p><br><br></p><p><br><br></p><p><br><br></p>
+      &copy; Copyright 2019<br><br>
+    </div>
+  </footer>
 
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-  <script src="assets/javascript/app.js"></script>
+  <script src="assets/js/app.js"></script>
 </body>
 
 </html>
