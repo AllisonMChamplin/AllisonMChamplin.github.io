@@ -179,7 +179,7 @@ header, #home, #about, #projects, #projects, #experience, #education, #contact {
 
  .card {
      /* background: none; */
-     padding: 25px;
+     padding: 50px 25px;
      margin-bottom: 40px !important;
      border: none;
  }
@@ -272,4 +272,16 @@ header, #home, #about, #projects, #projects, #experience, #education, #contact {
     text-align: center;
     margin-right: 15px;
     margin-bottom: 15px;
+ }
+
+ footer p {
+     opacity: .3;
+ }
+
+ #contact a, #contact a:visited {
+     color: goldenrod !important;
+ }
+
+ #contact a:hover {
+     color: #fff !important;
  }
