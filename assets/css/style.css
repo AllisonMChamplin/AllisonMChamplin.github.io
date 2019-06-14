@@ -230,8 +230,8 @@ header, #home, #about, #projects, #projects, #experience, #education, #contact {
  }
 
  hr {
-     border-color: #fff;
-     opacity: 0.5;
+     border-color: #333;
+     opacity: 0.2;
  }
 
  .color1 {
@@ -296,4 +296,8 @@ header, #home, #about, #projects, #projects, #experience, #education, #contact {
 
  #contact a:hover {
      color: #fff !important;
+ }
+
+ #education, #education h3, #education h4 {
+     color: #203d2e;
  }
