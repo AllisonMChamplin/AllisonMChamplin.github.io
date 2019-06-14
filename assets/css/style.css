@@ -134,7 +134,7 @@ header, #home, #about, #projects, #projects, #experience, #education, #contact {
 .frozen {
     background-image: url('../images/frozen.png');
     background-position-x: center;
-    background-position-y: bottom;
+    background-position-y: top;
     background-repeat: no-repeat;
     background-size: 2000px auto;
 }
