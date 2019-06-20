@@ -199,6 +199,7 @@ header, #home, #about, #projects, #projects, #experience, #education, #contact {
  .card img {
     /* padding: 10px; */
     border-radius: 15px;
+    border: 8px solid #ccc;
  }
 
  .card h5 {
