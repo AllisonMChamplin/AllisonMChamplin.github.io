@@ -302,3 +302,11 @@ header, #home, #about, #projects, #projects, #experience, #education, #contact {
  #education, #education h3, #education h4 {
      color: #203d2e;
  }
+
+ .modal-body img {
+     width: 100%;
+ }
+
+ .modal-title {
+     color: #0a2241;
+ }

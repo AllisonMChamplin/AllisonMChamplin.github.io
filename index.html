@@ -22,7 +22,6 @@
 <body data-spy="scroll" data-target="#navbarTarget" id="page-top">
 
   <nav class="navbar navbar-expand-md fixed-top navbar-dark nav-height color1">
-    <!-- <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark nav-height"> -->
 
     <a class="navbar-brand" href="#page-top">Allison Champlin</a>
 
@@ -76,14 +75,37 @@
           <p class="lead">Here is a selection of some of my recent projects:<br><br></p>
 
           <div class="card shadow">
+
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="myModalLabel">Screenshot of Bamazon with Node.js and MySQL</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="./assets/images/node-bamazon.jpg">
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
             <div class="row no-gutters">
               <div class="col-md-8">
                 <div class="card-body">
                   <h4 class="card-title">Bamazon with Node.js and MySQL</h4>
-                  <p class="card-text">A simple command line MySQL database-driven storefront written with Node.js that takes in orders from customers and depletes stock from the store's inventory.<br><br></p>
+                  <p class="card-text">A simple command line MySQL database-driven storefront written with Node.js that
+                    takes in orders from customers and depletes stock from the store's inventory.<br><br></p>
                   <p class="card-text">
                     <a href="https://github.com/AllisonMChamplin/Bamazon" target="_blank"
-                      title="View the Bamazon with Node.js and MySQL">&raquo; View Source</a>
+                      title="View the Bamazon with Node.js and MySQL">&raquo; View Source</a><br>
+                    <a href="#myModal" data-toggle="modal" data-target="#myModal">&raquo; View a Screenshot</a>
                   </p>
                 </div>
               </div>
@@ -94,32 +116,80 @@
           </div>
 
           <div class="card shadow">
+
+            <div class="modal fade" id="word-guess" tabindex="-1" role="dialog" aria-labelledby="word-guessLabel"
+              aria-hidden="true">
+              <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="word-guessLabel">Screenshot of Node Galactic Word Guess</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="./assets/images/node-word-guess.jpg">
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
             <div class="row no-gutters">
               <div class="col-md-8">
                 <div class="card-body">
                   <h4 class="card-title">Node Galactic Word Guess</h4>
-                  <p class="card-text">A simple Node.js command-line word guess game using constructor functions.<br><br></p>
+                  <p class="card-text">A simple Node.js command-line word guess game using constructor
+                    functions.<br><br></p>
                   <p class="card-text">
                     <a href="https://github.com/AllisonMChamplin/Constructor-Word-Guess" target="_blank"
-                      title="View the Node Galactic Word Guess Source">&raquo; View Source</a>
+                      title="View the Node Galactic Word Guess Source">&raquo; View Source</a><br>
+                    <a href="#word-guess" data-toggle="modal" data-target="#word-guess">&raquo; View a Screenshot</a>
+
                   </p>
                 </div>
               </div>
               <div class="col-md-4">
-                <img src="./assets/images/node-word-guess.jpg" class="card-img" alt="Screenshot of Node Galactic Word Guess">
+                <img src="./assets/images/node-word-guess.jpg" class="card-img"
+                  alt="Screenshot of Node Galactic Word Guess">
               </div>
             </div>
           </div>
 
           <div class="card shadow">
+
+              <div class="modal fade" id="liri" tabindex="-1" role="dialog" aria-labelledby="liriLabel"
+              aria-hidden="true">
+              <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="liriLabel">Screenshot of LIRIbot</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="./assets/images/liri-screenshot.gif" alt="Screenshot of LIRIbot">
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
             <div class="row no-gutters">
               <div class="col-md-8">
                 <div class="card-body">
                   <h4 class="card-title">LIRI Bot</h4>
-                  <p class="card-text">LIRI is a command line Node.js app that searches the Bands in Town concert API, Spotify songs, and OMDb API movies.<br><br></p>
+                  <p class="card-text">LIRI is a command line Node.js app that searches the Bands in Town concert API,
+                    Spotify songs, and OMDb API movies.<br><br></p>
                   <p class="card-text">
                     <a href="https://github.com/AllisonMChamplin/liri-node-app" target="_blank"
-                      title="View the LIRIbot Source">&raquo; View Source</a>
+                      title="View the LIRIbot Source">&raquo; View Source</a><br>
+                      <a href="#liri" data-toggle="modal" data-target="#liri">&raquo; View a Screenshot</a>
                   </p>
                 </div>
               </div>
@@ -134,7 +204,8 @@
               <div class="col-md-8">
                 <div class="card-body">
                   <h4 class="card-title">Food Data Central</h4>
-                  <p class="card-text">A fun app designed for kids to learn about nutrition that queries the USDA Food Database.<br><br></p>
+                  <p class="card-text">A fun app designed for kids to learn about nutrition that queries the USDA Food
+                    Database.<br><br></p>
                   <p class="card-text">
                     <a href="https://allisonmchamplin.github.io/ProjectOne/" target="_blank"
                       title="Visit the Food Data Central Site">&raquo; Visit Site</a><br>
@@ -249,7 +320,8 @@
               href="https://allisonmchamplin.github.io/">allisonmchamplin.github.io/</a></li>
           <li> <span class="fab fa-github-square"></span>GitHub: <a
               href="https://github.com/AllisonMChamplin/">github.com/AllisonMChamplin/</a></li>
-          <li> <span class="fas fa-file"></span>Resume: <a href="./assets/Resume.pdf" target="_blank">View my Resume</a></li>
+          <li> <span class="fas fa-file"></span>Resume: <a href="./assets/Resume.pdf" target="_blank">View my Resume</a>
+          </li>
           <li> <span class="fab fa-linkedin"></span>LinkedIn: <a
               href="https://www.linkedin.com/in/allison-champlin-5122a417a/">View my LinkedIn</a></li>
           <li> <span class="fas fa-phone"></span>Phone: 952-457-6613</li>
