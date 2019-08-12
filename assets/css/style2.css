@@ -2,12 +2,18 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-Size: 18px;
     color: #666;
-    background: #fefcf6;
+    background: #ecebe5;
+    /* background: #2aa48d; */
+    /* background-image: url("../images/lake-bg.png"); */
+    background-position-x: center;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    background-size: 2600px auto;
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Raleway', sans-serif;
-    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    /* color: #fff; */
 }
 
 h1 {
@@ -25,251 +31,77 @@ h3 {
     margin-bottom: 10px;
 }
 
-nav.nav-height {
-    padding: 30px 10px;
-    height: 65px;
+div {
+    /* border: 1px solid #fff; */
 }
 
-nav {
-    text-transform: uppercase;
+#logo-image {
+    width: 50%;
 }
 
-header {
+.drop-shadow {
+    background: #fff;
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 0 0px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 0 0px rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 0 0px rgba(0, 0, 0, 0.1) inset;
+    border-radius: 4px;
 }
 
-
-#home, #about {
-    color: #fff;
+.drop-shadow2 {
+    background: #fff;
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    border-radius: 4px;
 }
 
-#home a, #about a, #home a:visited,  #about a:visited {
-    color: #fff;
+.drop-shadow3 {
+    background: #fff;
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 0px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 0px rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 0px rgba(0, 0, 0, 0.1) inset;
+    border-radius: 4px;
 }
 
-#home, #about a:hover {
-    /* text-decoration: underline; */
-}
-
-#home img {
-    width: 35%;
-    height: auto;
-    float: left;
-    margin-right: 25px;
-}
-
-#projects {
-    
-}
-
-#experience {
-    
-}
-
-#contact {
-    
-}
-
-footer {
-    /* background: #edeae5; */
-    padding-bottom: 100px;
-}
-
-header, #home, #about, #projects, #projects, #experience, #education, #contact {
-    padding-top: 105px;
-    padding-bottom: 105px;
-}
-
-#projects {
-    color: #fff;
-}
-
-.color1 {
-    background: #0a2241;
-}
-
-.color2 {
-    background: #2aa48d;
-}
-
-.color3 {
-    background: #83bb9c;
-}
-
-.color4 {
-    background: #fefcf6;
-}
-
-.color5 {
-    background: #f36196;
-}
-
-.lake {
-    background-image: url('../images/lake6.png');
-    background-position-x: center;
-    background-position-y: bottom;
-    background-repeat: no-repeat;
-    background-size: 2600px auto;
-}
-
-.forest {
-    background-image: url('../images/forest2.png');
-    background-position-x: center;
-    background-position-y: bottom;
-    background-repeat: no-repeat;
-    background-size: 2000px auto;
-}
-                            
-.frozen {
-    background-image: url('../images/frozen.png');
-    background-position-x: center;
-    background-position-y: bottom;
-    background-repeat: no-repeat;
-    background-size: 2000px auto;
-}
-
-
-
-#home {
-    padding-top: 140px;
-    padding-bottom: 200px;
-}
-
-.lead {
-    line-height: 1.4em;
-    margin-bottom: 20px;
-}
-
-#home li {
+ul, li {
     list-style-type: none;
-    margin: 10px 0 10px 30px;
+    margin: 0;
+    padding: 0;
 }
 
+.nav-item a, .nav-item a:visited {
 
-.shadow {
-    -webkit-box-shadow: -21px 18px 21px 0px rgba(122,122,122,0.64);
-    -moz-box-shadow: -21px 18px 21px 0px rgba(122,122,122,0.64);
-    box-shadow: -21px 18px 21px 0px rgba(122,122,122,0.64);
- }
+}
 
- .project {
-     background: #fff;
- }
+.welcome {
+    display: block;
+    font-size: 1.5em;
+    margin-top: 24px;
+}
 
- .card-img {
-     border: 1px solid #fff;
-     /* padding-right: 10px; */
- }
+#left small {
+    margin-bottom: 24px;
+}
 
- .card-img:hover {
-     /* border: 5px solid #c5b8cc; */
- }
+/* Left Nav Styles */
+#left nav {
+    margin-bottom: 24px;
+    margin-top: 24px;
+}
 
- .card-body {
-     /* background: none !important; */
-     line-height: 1.6em;
- }
+#left nav a, #left nav a:visited {
+    border-bottom: 1px solid #ccc;
+    display: block;
+    padding: 8px 0;
+    color: #2aa48d;
+    text-decoration: none;
+}
 
- .card-body a, .card-body a:visited {
-    color:#0e5156;
- }
+#left nav a:hover {
+    text-decoration: none;
+    border-bottom: 1px solid #2aa48d;
+}
 
- .card-body a:hover {
-    color: #0b3041;
- }
+.nav-wrap {
 
- .card {
-     /* background: none; */
-     padding: 25px;
-     margin-bottom: 40px !important;
-     border: none;
- }
-
- .card img {
-    /* padding: 10px; */
-    border-radius: 15px;
- }
-
- .card h5 {
-     color: #9b91a2;
- }
-
- #projects .lead {
-     color: #fff;
- }
-
- #projects h4 {
-     color: #2aa48d;
-     font-size: 1.5em;
- }
-
- .school-logo {
-    width: 55px;
-    margin-right: 20px;
-    float: left;
- }
-
- #education h4 {
-    vertical-align: top;
-    font-size: 1.6em;
- }
-
- #education {
-     color: #fff;
- }
-
- hr {
-     border-color: #fff;
-     opacity: 0.5;
- }
-
- .color1 {
-     color: #fff;
- }
-
- .color1 a, .color1 a:visited {
-     color: #fff;
- }
-
- .color1 a:hover {
-     color: goldenrod;
-     text-decoration: none;
- }
-
- footer {
-     text-align: center;
- }
-
- .nav-item a.active {
-     color: goldenrod !important;
- }
-
- .nav-item a:hover {
-     color: goldenrod !important;
- }
-
- .navbar-brand {
-     color: goldenrod !important;
- }
-
- i {
-     margin-right: 15px;
- }
-
- a:hover {
-     color: goldenrod !important;
- }
-
- .card-text {
-     color: #666 !important;
- }
-
- #contact li {
-     list-style-type: none;
- }
-
- #contact span {
-    width: 15px;
-    text-align: center;
-    margin-right: 15px;
-    margin-bottom: 15px;
- }
+}

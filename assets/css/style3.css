@@ -1,0 +1,171 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-Size: 18px;
+    color: #666;
+    background: #fefcf6;
+    min-height: 75rem;
+    padding-top: 58px;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Open Sans', sans-serif;
+    /* color: #fff; */
+}
+
+h1 {
+    font-size:3.5em;
+    margin: 60px auto 35px;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.8em;
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+
+nav {
+    background: #fff;
+    box-shadow: 0px 1px 10px #999;
+}
+
+main {
+    box-shadow: inset 0 0 4px rgba(0,0,0,.15);
+}
+
+#logo-image {
+    width: 200px;
+    float: left;
+    margin-right: 50px;
+    margin-bottom: 40px;
+}
+
+.c-block {
+    padding: 5rem;
+
+}
+
+.grad1 {
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#63d8ce+0,6d74db+32,6d74db+32,6d74db+46,6d74db+54,ea79ae+100 */
+background: #63d8ce; /* Old browsers */
+background: -moz-linear-gradient(-45deg,  #63d8ce 0%, #6d74db 32%, #6d74db 32%, #6d74db 46%, #6d74db 54%, #ea79ae 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  #63d8ce 0%,#6d74db 32%,#6d74db 32%,#6d74db 46%,#6d74db 54%,#ea79ae 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  #63d8ce 0%,#6d74db 32%,#6d74db 32%,#6d74db 46%,#6d74db 54%,#ea79ae 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#63d8ce', endColorstr='#ea79ae',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.grad2 {
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f36196+0,325193+100 */
+background: #f36196; /* Old browsers */
+background: -moz-linear-gradient(top,  #f36196 0%, #325193 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #f36196 0%,#325193 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #f36196 0%,#325193 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f36196', endColorstr='#325193',GradientType=0 ); /* IE6-9 */
+
+}
+
+.lake {
+    background-image: url('../images/lake6.png');
+    background-position-x: center;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    background-size: 2600px auto;
+    color: #fff;
+
+}
+
+.lake li {
+    list-style-type: none;
+}
+
+.lake a, .lake a:visited {
+    color: #fff;
+}
+
+#projects h3 {
+    color: #2aa48d;
+}
+
+.project-div {
+    border: 1px solid #f1f1f1;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.project-div:hover {
+    -webkit-box-shadow: 0px 0px 20px 3px rgba(168,168,168,0.33);
+    -moz-box-shadow: 0px 0px 20px 3px rgba(168,168,168,0.33);
+    box-shadow: 0px 0px 20px 3px rgba(168,168,168,0.33);
+}
+
+.project-screen {
+    width: 30%;
+    padding: 10px 10px 0 10px;
+    float: left;
+    /* background: #ccc; */
+    margin: auto;
+}
+
+.project-desc {
+    width: 70%;
+    float: left;
+    padding: 30px 10px 30px 30px;
+    font-size: .8em;
+}
+
+.project-div img {
+    width: 100%;
+    margin-top: 20px;   
+    background: #fff;
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 0 0px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 0 0px rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 0 0px rgba(0, 0, 0, 0.1) inset;
+    border-radius: 4px;
+}
+
+.project-tags {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.project-tags li {
+    float: left;
+    border: 1px solid #ccc;
+    text-transform: uppercase;
+    font-size: .75em;
+    list-style-type: none;
+    padding: 5px 8px;
+    margin: 0 8px 0 0;
+    border-radius: 4px;
+}
+
+.project-tags li:hover {
+    color: #fff;
+    background: #f36196;
+    border: 1px solid  #f36196;
+}
+
+.project-desc a, .project-desc a:visited {
+    color: #333;
+}
+
+.project-desc a:hover {
+    color: #000;
+}
+
+@media (max-width: 575.98px) { 
+    #logo-image {
+        width: 100%;
+        float: none;
+        margin: 0;
+    }
+};
+
