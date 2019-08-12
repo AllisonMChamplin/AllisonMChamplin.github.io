@@ -11,6 +11,18 @@ body {
     padding-top: 58px;
 }
 
+a, a:visited {
+    color: #333;
+    -webkit-transition-property: -webkit-color; /* Safari */
+    -webkit-transition-duration: .5s; /* Safari */
+    transition-property: color;
+    transition-duration: .5s;
+}
+
+a:hover {
+    color:#2aa48d;
+}
+
 h1, h2, h3, h4, h5 {
     font-family: 'Open Sans', sans-serif;
     /* color: #fff; */
@@ -48,7 +60,7 @@ main {
 }
 
 .c-block {
-    padding: 5rem;
+    padding: 8rem 5rem;
 
 }
 
@@ -89,14 +101,19 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f36196', end
     color: #fff;
 }
 
-#projects h3 {
+#projects h3, #contact h3 {
     color: #2aa48d;
 }
 
 .project-div {
     border: 1px solid #f1f1f1;
+    background: #fff;
     border-radius: 5px;
     padding: 20px;
+    -webkit-transition-property: -webkit-box-shadow; /* Safari */
+    -webkit-transition-duration: .8s; /* Safari */
+    transition-property: box-shadow;
+    transition-duration: .8s;
 }
 
 .project-div:hover {
@@ -130,6 +147,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f36196', end
     border-radius: 4px;
 }
 
+.project-div a:hover {
+
+}
+
 .project-tags {
     margin: 0;
     padding: 0;
@@ -138,19 +159,26 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f36196', end
 
 .project-tags li {
     float: left;
-    border: 1px solid #ccc;
+    /* border: 1px solid #ccc; */
     text-transform: uppercase;
     font-size: .75em;
     list-style-type: none;
     padding: 5px 8px;
     margin: 0 8px 0 0;
     border-radius: 4px;
+    -webkit-transition-property: background-color; /* Safari */
+    -webkit-transition-duration: .8s; /* Safari */
+    transition-property: background-color;
+    transition-duration: .8s;
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 0 0px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 0 0px rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 0 0px rgba(0, 0, 0, 0.1) inset;
 }
 
 .project-tags li:hover {
     color: #fff;
-    background: #f36196;
-    border: 1px solid  #f36196;
+    background-color: #f36196;
+    /* border: 1px solid  #f36196; */
 }
 
 .project-desc a, .project-desc a:visited {
@@ -158,8 +186,75 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f36196', end
 }
 
 .project-desc a:hover {
-    color: #000;
+    color: #f36196;
+    text-decoration: none;
 }
+
+/* Education */
+
+#education {
+    background: #2aa48d;
+    color: #fff;
+}
+
+
+
+.school-logo {
+    width: 55px;
+    margin-right: 20px;
+    float: left;
+}
+
+#education h4, #contact h4 {
+    margin-bottom: 0;
+}
+
+#contact ul {
+    list-style-type: none;
+    margin: 40px 0 0;
+    padding: 40px;
+}
+
+#contact li {
+    list-style-type: none;
+    padding: 5px 0;
+}
+
+
+.fasi {
+    /* border: 1px solid #ccc; */
+    width: 30px;
+    text-align: right;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.modal-body img {
+    width: 100%;
+}
+
+.drop-shadow {
+    background: #fff;
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 0 0px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 0 0px rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 0 0px rgba(0, 0, 0, 0.1) inset;
+    border-radius: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 575.98px) { 
     #logo-image {
