@@ -107,9 +107,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f36196', end
 
 .project-div {
     border: 1px solid #f1f1f1;
-    background: #fff;
+    background: #f7f7f7;
     border-radius: 5px;
-    padding: 20px;
+    padding: 40px;
     -webkit-transition-property: -webkit-box-shadow; /* Safari */
     -webkit-transition-duration: .8s; /* Safari */
     transition-property: box-shadow;
@@ -118,6 +118,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f36196', end
     -webkit-transition-duration: 1.5s; /* Safari */
     transition-property: border;
     transition-duration: 1.5s;
+    -webkit-box-shadow: 0px 0px 8px 3px rgba(168,168,168,0.33);
+    -moz-box-shadow: 0px 0px 8px 3px rgba(168,168,168,0.33);
+    box-shadow: 0px 0px 8px 3px rgba(168,168,168,0.33);
 }
 
 .project-div:hover {
@@ -125,7 +128,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f36196', end
     -moz-box-shadow: 0px 0px 20px 3px rgba(168,168,168,0.33);
     box-shadow: 0px 0px 20px 3px rgba(168,168,168,0.33);
     border: 1px solid #f36196;
-
 }
 
 .project-screen {
