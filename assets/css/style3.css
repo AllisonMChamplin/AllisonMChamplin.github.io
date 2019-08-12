@@ -114,12 +114,18 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f36196', end
     -webkit-transition-duration: .8s; /* Safari */
     transition-property: box-shadow;
     transition-duration: .8s;
+    -webkit-transition-property: -webkit-border; /* Safari */
+    -webkit-transition-duration: 1.5s; /* Safari */
+    transition-property: border;
+    transition-duration: 1.5s;
 }
 
 .project-div:hover {
     -webkit-box-shadow: 0px 0px 20px 3px rgba(168,168,168,0.33);
     -moz-box-shadow: 0px 0px 20px 3px rgba(168,168,168,0.33);
     box-shadow: 0px 0px 20px 3px rgba(168,168,168,0.33);
+    border: 1px solid #f36196;
+
 }
 
 .project-screen {
@@ -192,10 +198,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f36196', end
 
 /* Education */
 
-#education {
-    background: #2aa48d;
-    color: #fff;
-}
 
 
 
@@ -207,6 +209,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f36196', end
 
 #education h4, #contact h4 {
     margin-bottom: 0;
+}
+
+/* Contact */
+
+#contact {
+    background-color: #0a2241;
 }
 
 #contact ul {
@@ -241,19 +249,46 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f36196', end
     border-radius: 4px;
 }
 
+.color3 {
+    background: #2aa48d;
+}
+
+
+.forest {
+    background-image: url('../images/forest2.png');
+    background-position-x: center;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    background-size: 2000px auto;
+}
+                            
+.frozen {
+    background-image: url('../images/frozen.png');
+    background-position-x: center;
+    background-position-y: top;
+    background-repeat: no-repeat;
+    background-size: 2000px auto;
+}
 
 
 
+#education {
+    /* background: #2aa48d; */
+    color: #fff;
+}
 
 
+.col-lg-10 {
+    padding-bottom: 150px;
+}
 
 
-
-
-
-
-
-
+footer {
+    text-transform: uppercase;
+    font-size: .8em;
+    background: #333;
+    color: #666;
+}
 
 
 @media (max-width: 575.98px) { 
