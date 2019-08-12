@@ -6,12 +6,26 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-Size: 18px;
     color: #666;
-    background: #fefcf6;
+    background: #fff;
+    min-height: 75rem;
+    padding-top: 58px;
+}
+
+a, a:visited {
+    color: #333;
+    -webkit-transition-property: -webkit-color; /* Safari */
+    -webkit-transition-duration: .5s; /* Safari */
+    transition-property: color;
+    transition-duration: .5s;
+}
+
+a:hover {
+    color:#6d56c1;
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Raleway', sans-serif;
-    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    /* color: #fff; */
 }
 
 h1 {
@@ -24,98 +38,39 @@ h2 {
 }
 
 h3 {
-    font-size: 2.3em;
+    font-size: 1.8em;
     margin-top: 60px;
     margin-bottom: 10px;
 }
 
-nav a {
-    transition: color 0.5s;
-}
-
-nav a:hover {
-    color: #fff;
-}
-
-nav.nav-height {
-    padding: 30px 10px;
-    height: 65px;
-}
-
 nav {
-    text-transform: uppercase;
+    background: #fff;
+    box-shadow: 0px 1px 10px #999;
 }
 
-header {
+main {
+    box-shadow: inset 0 0 4px rgba(0,0,0,.15);
 }
 
-#home p {
-    color: #fff;
-}
-
-#home, #about {
-    color: #fff;
-}
-
-#home a, #about a, #home a:visited,  #about a:visited {
-    color: #fff;
-}
-
-#home, #about a:hover {
-    /* text-decoration: underline; */
-}
-
-#home img {
-    width: 35%;
-    height: auto;
+#logo-image {
+    width: 200px;
     float: left;
-    margin-right: 25px;
+    margin-right: 50px;
+    margin-bottom: 40px;
 }
 
-#projects {
-    
+.c-block {
+    padding: 8rem 5rem;
+
 }
 
-#experience {
-    
-}
-
-#contact {
-    
-}
-
-footer {
-    /* background: #edeae5; */
-    padding-bottom: 100px;
-}
-
-header, #home, #about, #projects, #projects, #experience, #education, #contact {
-    padding-top: 105px;
-    padding-bottom: 105px;
-}
-
-#projects {
-    color: #fff;
-}
-
-.color1 {
-    background: #0a2241;
-}
-
-.color2 {
-    background: #2aa48d;
-}
-
-.color3 {
-    background: #83bb9c;
-}
-
-.color4 {
-    background: #fefcf6;
-}
-
-.color5 {
-    background: #f36196;
+.gradient {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#4749ab+0,7064ab+46,bf9295+100 */
+background: #4749ab; /* Old browsers */
+background: -moz-linear-gradient(45deg,  #4749ab 0%, #7064ab 46%, #bf9295 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg,  #4749ab 0%,#7064ab 46%,#bf9295 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg,  #4749ab 0%,#7064ab 46%,#bf9295 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4749ab', endColorstr='#bf9295',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
 .lake {
@@ -124,6 +79,196 @@ header, #home, #about, #projects, #projects, #experience, #education, #contact {
     background-position-y: bottom;
     background-repeat: no-repeat;
     background-size: 2600px auto;
+    color: #fff;
+
+}
+
+.lake li {
+    list-style-type: none;
+}
+
+.lake a, .lake a:visited {
+    color: #fff;
+}
+
+#projects h3 {
+    color: #6d56c1;
+}
+
+#contact h3 {
+    color: #fff;
+}
+
+.project-div {
+    border: 1px solid #f1f1f1;
+    background: #fff;
+    border-radius: 5px;
+    padding: 40px;
+    -webkit-transition-property: -webkit-box-shadow; /* Safari */
+    -webkit-transition-duration: .8s; /* Safari */
+    transition-property: box-shadow;
+    transition-duration: .8s;
+    -webkit-transition-property: -webkit-border; /* Safari */
+    -webkit-transition-duration: 1.5s; /* Safari */
+    transition-property: border;
+    transition-duration: 1.5s;
+    /* -webkit-box-shadow: 0px 0px 8px 3px rgba(168,168,168,0.33);
+    -moz-box-shadow: 0px 0px 8px 3px rgba(168,168,168,0.33);
+    box-shadow: 0px 0px 8px 3px rgba(168,168,168,0.33); */
+}
+
+.project-div:hover {
+    -webkit-box-shadow: 0px 0px 20px 3px rgba(168,168,168,0.33);
+    -moz-box-shadow: 0px 0px 20px 3px rgba(168,168,168,0.33);
+    box-shadow: 0px 0px 20px 3px rgba(168,168,168,0.33);
+    border: 1px solid #6d56c1;
+}
+
+.project-screen {
+    width: 30%;
+    padding: 10px 10px 0 10px;
+    float: left;
+    /* background: #ccc; */
+    margin: auto;
+}
+
+.project-desc {
+    width: 70%;
+    float: left;
+    padding: 30px 10px 30px 30px;
+    font-size: .8em;
+}
+
+.project-div img {
+    width: 100%;
+    margin-top: 20px;   
+    background: #fff;
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 0 0px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 0 0px rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 0 0px rgba(0, 0, 0, 0.1) inset;
+    border-radius: 4px;
+}
+
+.project-div a:hover {
+
+}
+
+.project-tags {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.project-tags li {
+    float: left;
+    /* border: 1px solid #ccc; */
+    text-transform: uppercase;
+    font-size: .75em;
+    list-style-type: none;
+    padding: 5px 8px;
+    margin: 0 8px 0 0;
+    border-radius: 4px;
+    -webkit-transition-property: background-color; /* Safari */
+    -webkit-transition-duration: .8s; /* Safari */
+    transition-property: background-color;
+    transition-duration: .8s;
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 0 0px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 0 0px rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 0 0px rgba(0, 0, 0, 0.1) inset;
+}
+
+.project-tags li:hover {
+    color: #fff;
+    background-color: #6d56c1;
+    /* border: 1px solid  #6d56c1; */
+}
+
+.project-desc a, .project-desc a:visited {
+    color: #333;
+}
+
+.project-desc a:hover {
+    color: #6d56c1;
+    text-decoration: none;
+}
+
+/* Education */
+
+.school-logo {
+    width: 55px;
+    margin-right: 20px;
+    float: left;
+}
+
+#education h4, #contact h4 {
+    margin-bottom: 0;
+}
+
+/* Contact */
+
+#contact {
+    /* background-color: #0a2241; */
+}
+
+#contact ul {
+    list-style-type: none;
+    margin: 40px 0 0;
+    padding: 40px;
+    border-radius: 4px;
+    -webkit-transition-property: box-shadow; /* Safari */
+    -webkit-transition-duration: .8s; /* Safari */
+    transition-property: box-shadow;
+    transition-duration: .8s;
+
+}
+
+#contact ul:hover {
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 0 0px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 0 0px rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 0 0px rgba(0, 0, 0, 0.1) inset;
+}
+
+#contact li {
+    list-style-type: none;
+    padding: 5px 0;
+}
+
+#contact, #contact a, #contact a:visited {
+    color: #fff;
+}
+
+.project-tags li {
+    float: left;
+    /* border: 1px solid #ccc; */
+    text-transform: uppercase;
+    font-size: .75em;
+    list-style-type: none;
+    padding: 5px 8px;
+    margin: 0 8px 0 0;
+}
+
+.fasi {
+    /* border: 1px solid #ccc; */
+    width: 30px;
+    text-align: right;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.modal-body img {
+    width: 100%;
+}
+
+.drop-shadow {
+    background: #fff;
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 0 0px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 0 0px rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 0 0px rgba(0, 0, 0, 0.1) inset;
+    border-radius: 4px;
+}
+
+.color3 {
+    background: #6d56c1;
 }
 
 .forest {
@@ -142,174 +287,31 @@ header, #home, #about, #projects, #projects, #experience, #education, #contact {
     background-size: 2000px auto;
 }
 
-
-
-#home {
-    padding-top: 140px;
-    padding-bottom: 200px;
-}
-
-.lead {
-    line-height: 1.4em;
-    margin-bottom: 20px;
-}
-
-#home li {
-    list-style-type: none;
-    margin: 10px 0 10px 30px;
+#education {
+    /* background: #6d56c1; */
+    color: #fff;
 }
 
 
-.shadow {
-    -webkit-box-shadow: -21px 18px 21px 0px rgba(122,122,122,0.64);
-    -moz-box-shadow: -21px 18px 21px 0px rgba(122,122,122,0.64);
-    box-shadow: -21px 18px 21px 0px rgba(122,122,122,0.64);
- }
+.col-lg-10 {
+    padding-bottom: 150px;
+}
 
- .project {
-     background: #fff;
- }
 
- .card-img {
-     border: 1px solid #fff;
-     /* padding-right: 10px; */
- }
-
- .card-img:hover {
-     /* border: 5px solid #c5b8cc; */
- }
-
- .card-body {
-     /* background: none !important; */
-     line-height: 1.6em;
- }
-
- .card-body a, .card-body a:visited {
-    color:#0e5156;
- }
-
- .card-body a:hover {
-    color: #0b3041;
- }
-
- .card {
-     /* background: none; */
-     padding: 50px 25px;
-     margin-bottom: 40px !important;
-     border: none;
- }
-
- .card img {
-    /* padding: 10px; */
-    border-radius: 15px;
-    border: 8px solid #ccc;
- }
-
- .card h5 {
-     color: #9b91a2;
- }
-
- #projects .lead {
-     color: #fff;
- }
-
- #projects h4 {
-     color: #2aa48d;
-     font-size: 1.5em;
- }
-
- .school-logo {
-    width: 55px;
-    margin-right: 20px;
-    float: left;
- }
-
- #education h4 {
-    vertical-align: top;
-    font-size: 1.6em;
- }
-
- #education {
-     color: #fff;
- }
-
- hr {
-     border-color: #333;
-     opacity: 0.2;
- }
-
- .color1 {
-     color: #fff;
- }
-
- .color1 a, .color1 a:visited {
-     color: #fff;
- }
-
- .color1 a:hover {
-     color: goldenrod;
-     text-decoration: none;
- }
-
- footer {
-     text-align: center;
- }
-
- .nav-item a.active {
-     color: goldenrod !important;
- }
-
- .nav-item a:hover {
-     color: goldenrod !important;
- }
-
- .navbar-brand {
-     color: goldenrod !important;
- }
-
- i {
-     margin-right: 15px;
- }
-
- a:hover {
-     color: goldenrod !important;
- }
-
- .card-text {
-     color: #666 !important;
- }
-
- #contact li {
-     list-style-type: none;
- }
-
- #contact span {
-    width: 15px;
+footer {
+    text-transform: uppercase;
+    font-size: .8em;
+    background: #0a2241;
+    color: #666;
     text-align: center;
-    margin-right: 15px;
-    margin-bottom: 15px;
- }
+}
 
- footer p {
-     opacity: .3;
- }
 
- #contact a, #contact a:visited {
-     color: goldenrod !important;
- }
+@media (max-width: 575.98px) { 
+    #logo-image {
+        width: 100%;
+        float: none;
+        margin: 0;
+    }
+};
 
- #contact a:hover {
-     color: #fff !important;
- }
-
- #education, #education h3, #education h4 {
-     color: #203d2e;
- }
-
- .modal-body img {
-     width: 100%;
- }
-
- .modal-title {
-     color: #0a2241;
- }
