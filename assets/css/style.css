@@ -6,7 +6,9 @@ body {
     font-family: 'Lato', sans-serif;
     font-Size: 18px;
     color: #666;
-    background: #e3e2e6;
+    /* background: #e3e2e6;
+     */
+    background: #6f61bf;
     min-height: 75rem;
     padding-top: 55px;
 }
@@ -151,6 +153,23 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4749ab', end
 
 .lake a, .lake a:visited {
     color: #fff;
+}
+
+.city-street {
+    background-image: url('../images/city-street.png') !important;
+    background-position-x: center;
+    background-position-y: top;
+    background-repeat: no-repeat;
+    background-size: 1874px auto;
+    /* color: #fff; */
+}
+
+.city-street li {
+    list-style-type: none;
+}
+
+.city-street a, .city-street a:visited {
+    /* color: #fff; */
 }
 
 #projects h3 {
