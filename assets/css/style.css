@@ -46,6 +46,7 @@ h4 {
     background: #fff;
     border-radius: 2px;
     margin-top: 20px;
+    margin-bottom: 40px;
 }
 
 
@@ -231,6 +232,12 @@ ul.navbar-nav li {
     margin-bottom:40px;
 }
 
+.card img {
+    border: 1px solid #ccc;
+}
+
+
+
 /* Education */
 .school-logo {
     width: 55px;
@@ -251,7 +258,7 @@ ul.navbar-nav li {
 
 /* Contact */
 #contact {
-    background-color: #372c5e;
+    /* background-color: #372c5e; */
 }
 
 .about-wrap {
@@ -321,5 +328,12 @@ ul.navbar-nav li {
     .card {
         margin: 10px 30px !important;
     }
+
+    .card-text {
+        margin: 20px 0px 20px;
+    }
+
+
+    
 
 }
