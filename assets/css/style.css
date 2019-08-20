@@ -6,11 +6,11 @@ body {
     font-family: 'Lato', sans-serif;
     font-Size: 18px;
     color: #666;
-    /* background: #e3e2e6;
-     */
-    background: #6f61bf;
-    min-height: 75rem;
-    padding-top: 55px;
+    background: #372c5e;
+}
+
+img {
+    width: 100%;
 }
 
 a, a:visited {
@@ -25,126 +25,111 @@ a:hover {
     color:#6d56c1;
 }
 
-#top-bar {
-    background: #303030;
-    position: fixed;
-    /* z-index: 3; */
-    height: 55px;
-    width: 100%;
-    top: 0;
-}
-
-.shift {
-    margin-top: -130px;
-}
-
-.shape59{display:inline-block!important;position:relative;width:30px;height:30px;border-radius:100%;background-color:#6D56C1;border:calc(30px/8) solid #6D56C1;box-sizing:content-box}
-
-.shape59:before{position:absolute;content:'';margin:auto;width:calc(30px/3.5);height:calc(30px/3.5);background:rgba(0,0,0,0);border:calc(30px/8) solid #fff;border-right:none;border-top:none;top:calc(30px/8);bottom:0;left:0;right:0;transform:rotate(135deg);box-sizing:content-box}
-
-.top-arrow {
-    text-align: center;
-    /* margin: 80px 0 0;     */
-}
-
-#home {
-    z-index: 2;
-    position: relative;
-    /* margin-top: 150px; */
-    /* background: #303030; */
-    color: #fff;
-    padding-bottom: 80px;
-    padding-top: 125px;
-    /* margin-top: 55px; */
-}
+.shape59{ display:inline-block!important;position:relative;width:30px;height:30px;border-radius:100%;background-color:#6D56C1;border:calc(30px/8) solid #6D56C1;box-sizing:content-box}
+.shape59:before{ position:absolute;content:'';margin:auto;width:calc(30px/3.5);height:calc(30px/3.5);background:rgba(0,0,0,0);border:calc(30px/8) solid #fff;border-right:none;border-top:none;top:calc(30px/8);bottom:0;left:0;right:0;transform:rotate(135deg);box-sizing:content-box}
+.shape59:hover { background-color:#8c70f0;}
+.top-arrow { text-align: center; margin-top: 20px; padding-top: 40px; clear: both; }
 
 h1, h2, h3, h4, h5 {
     /* font-family: 'Open Sans', sans-serif; */
     font-family: 'Poppins', sans-serif;
-
-    /* color: #fff; */
 }
 
-h1 {
-    font-size:3.5em;
-    margin: 60px auto 35px;
-}
-
-h2 {
-    font-size: 2em;
-}
-
-h3 {
-    font-size: 1.8em;
-    margin-bottom: 10px;
+h4 {
+    /* font-size: 1.3rem !important; */
 }
 
 .content-bg h3 {
-    border-bottom: 4px solid #6f61bf;
-    margin-bottom: 30px;
-    padding-bottom: 10px;
-    margin-top: 100px;
+    border-left: 12px solid #ccc;
+    padding-left: 20px;
+    padding: 10px 20px;
+    background: #fff;
+    border-radius: 2px;
+    margin-top: 20px;
 }
 
+
+/* Navbar */
 nav {
     background: #333;
     box-shadow: 0px 10px 10px rgba(0,0,0,.15);
-    width: 70%;
     margin: 0 auto;
-    z-index: 5;
-    margin-top: -20px;
-    position: relative;
     padding: 20px;
+    border-bottom: 12px solid #222;
 }
 
-.mynav {
-    border-radius: 5px;
-    /* margin-top: -34px; */
-    width: 85%;
+ul.navbar-nav {
+    margin-top: 10px;
 }
 
-a.nav-link {
+ul.navbar-nav li {
+    margin: 5px 0;
+}
+
+.nav-item a, .nav-item a:visited {
     padding: 5px 20px;
     margin: 0 20px;
     text-transform: uppercase;
     color: #fff !important;
+    border: 2px solid transparent;
+    -webkit-transition-property: -webkit-padding-left; /* Safari */
+    -webkit-transition-duration: .5s; /* Safari */
+    transition-property: padding-left;
+    transition-duration: .5s;
+    border-radius: 15px;
 }
 
-ul.navbar-nav {
-    padding: 25px 0 10px;
-    width: 100%;
+.nav-item a:hover {
+    border: 2px solid #ccc;
+    padding-left: 10px;
 }
 
-main {
-    box-shadow: inset 0 0 4px rgba(0,0,0,.15);
+.nav-item a.active {
+    /* background: #fff; */
+    border: 2px solid #ccc;
+    padding-left: 10px;
+}
+
+
+
+/* Layout CSS */
+#home {
+    color: #fff;
+    padding-bottom: 40px;
+    /* z-index: 2;
+    position: relative;
+     */
 }
 
 #logo-image {
-    width: 200px;
-    margin-top: 65px;
+    width: 40%;
+    margin: 15px 0 15px 0;
 }
 
-.c-block {
-    padding: 0 5rem 1rem;
-    text-align: center;
-    /* margin-top: -130px; */
+.content-bg {
+    padding: 15px;
+    background: #fff;
+    border-radius: 4px;
+    margin: 15px;
 }
 
-.gradient {
-    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#4749ab+0,7064ab+46,bf9295+100 */
-background: #4749ab; /* Old browsers */
-background: -moz-linear-gradient(45deg,  #4749ab 0%, #7064ab 46%, #bf9295 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(45deg,  #4749ab 0%,#7064ab 46%,#bf9295 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(45deg,  #4749ab 0%,#7064ab 46%,#bf9295 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4749ab', endColorstr='#bf9295',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+.drop-shadow {
+    background: #fff;
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2), 0 0 0px rgba(0, 0, 0, 0.2) inset;
+    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2), 0 0 0px rgba(0, 0, 0, 0.2) inset;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2), 0 0 0px rgba(0, 0, 0, 0.2) inset;
+    border-radius: 4px;
 }
 
+
+
+/* Home */
 .lake {
     background-image: url('../images/lake7.png') !important;
     background-position-x: center;
     background-position-y: bottom;
     background-repeat: no-repeat;
-    background-size: 1874px auto;
+    background-size: cover;
     color: #fff;
 }
 
@@ -156,42 +141,127 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4749ab', end
     color: #fff;
 }
 
-.city-street {
-    background-image: url('../images/city-street.png') !important;
-    background-position-x: center;
-    background-position-y: top;
-    background-repeat: no-repeat;
-    background-size: 1874px auto;
-    /* color: #fff; */
+
+
+/* About */
+.about-heading {
 }
 
-.city-street li {
+.about-content {
+    width: 100%;
+    border: 1px solid #cccccc;
+    padding: 20px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    /* background: #8570a8; */
+    border-bottom: 10px solid #8570a8;
+}
+
+.btn {
+    background: #6f79bd;
+    color: #fff;
+}
+
+.btn:hover {
+    background: #333;
+}
+
+
+
+
+
+/* Projects */
+.project-div {
+    border-radius: 10px;
+    /* padding: 10px; */
+    border: 3px solid #6f75b6;
+    text-align: center;
+    border-top: 10px solid #6f75b6;
+    border-bottom: 10px solid #6f75b6;
+}
+
+.project-div img {
+    border: 2px solid #666;
+    margin: 15px auto;
+    width: 90%;
+    border-radius: 4px;
+}
+
+.project-div h4 {
+    margin: 20px 0 0;
+    background: #6f75b6;
+    padding: 10px;
+    color: #fff;
+    
+}
+
+.project-div a, .project-div a:visited {
+    color: #fff;
+    margin: 5px 0;
+}
+
+.project-tags {
+    margin: 0 0 20px 0;
+    padding: 0;
+}
+.project-tags li {
     list-style-type: none;
+    display: inline-block;
+    border: 1px solid #ccc;
+    font-size: 85%;
+    padding: 0 10px;
+    border-radius: 2px;
+    margin: 4px 0;
 }
 
-.city-street a, .city-street a:visited {
-    /* color: #fff; */
+.card {
+    border: 0;
+    border-bottom: 10px solid #8570a8;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
 }
 
-#projects h3 {
-    /* color: #6d56c1; */
+.card-text a, .card-text a:visited {
+    color: #fff;
+    margin: 0 5px 5px 0;
 }
 
-li {
-    list-style-type: none;
+.card-deck {
+    margin-bottom:40px;
 }
 
-#contact h3 {
-    /* color: #fff; */
+/* Education */
+.school-logo {
+    width: 55px;
+    margin-right: 20px;
+    float: left;
+}
+
+#education h4, #contact h4 {
+    margin-bottom: 0;
+    font-size: 1.1rem;
+}
+
+#education .lead {
+    font-size: 1rem;
+}
+
+
+
+/* Contact */
+#contact {
+    background-color: #372c5e;
 }
 
 .about-wrap {
     width: 100%;
     text-align: center;
-    line-height: 1.9em;
     background: #f1f1f1;
     border: 1px solid #ccc;
-    padding: 35px;
+    padding: 15px;
+    margin: 10px 0;
+    font-size: 1rem;
 }
 
 .about-left {
@@ -212,308 +282,40 @@ li {
     text-align: left;
 }
 
-.project-div {
-    border: 1px solid #f1f1f1;
-    background: #fff;
-    border-radius: 5px;
-    padding: 40px;
-    -webkit-transition-property: -webkit-box-shadow; /* Safari */
-    -webkit-transition-duration: .8s; /* Safari */
-    transition-property: box-shadow;
-    transition-duration: .8s;
-    -webkit-transition-property: -webkit-border; /* Safari */
-    -webkit-transition-duration: 1s; /* Safari */
-    transition-property: border;
-    transition-duration: 1s;
-    /* -webkit-box-shadow: 0px 0px 8px 3px rgba(168,168,168,0.33);
-    -moz-box-shadow: 0px 0px 8px 3px rgba(168,168,168,0.33);
-    box-shadow: 0px 0px 8px 3px rgba(168,168,168,0.33); */
-}
-
-.project-div:hover {
-    -webkit-box-shadow: 0px 0px 20px 3px rgba(168,168,168,0.33);
-    -moz-box-shadow: 0px 0px 20px 3px rgba(168,168,168,0.33);
-    box-shadow: 0px 0px 20px 3px rgba(168,168,168,0.33);
-    border: 1px solid #6d56c1;
-}
-
-.project-screen {
-    width: 30%;
-    padding: 10px 10px 0 10px;
-    float: left;
-    /* background: #ccc; */
-    margin: auto;
-}
-
-.project-desc {
-    width: 70%;
-    float: left;
-    padding: 30px 10px 30px 30px;
-    font-size: .8em;
-}
-
-.project-div img {
-    width: 100%;
-    margin-top: 20px;   
-    background: #fff;
-    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 0 0px rgba(0, 0, 0, 0.1) inset;
-    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 0 0px rgba(0, 0, 0, 0.1) inset;
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 0 0px rgba(0, 0, 0, 0.1) inset;
-    border-radius: 4px;
-}
-
-.project-div a:hover {
-
-}
-
-.project-tags {
-    margin: 0;
-    padding: 0;
-    /* margin-bottom: 20px; */
-}
-
-.project-tags li {
-    float: left;
-    /* border: 1px solid #ccc; */
-    text-transform: uppercase;
-    font-size: .75em;
-    list-style-type: none;
-    padding: 5px 8px;
-    margin: 0 8px 0 0;
-    border-radius: 4px;
-    -webkit-transition-property: background-color; /* Safari */
-    -webkit-transition-duration: .8s; /* Safari */
-    transition-property: background-color;
-    transition-duration: .8s;
-    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 0 0px rgba(0, 0, 0, 0.1) inset;
-    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 0 0px rgba(0, 0, 0, 0.1) inset;
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 0 0px rgba(0, 0, 0, 0.1) inset;
-}
-
-.project-tags li:hover {
-    color: #fff;
-    background-color: #6d56c1;
-    /* border: 1px solid  #6d56c1; */
-}
-
-.project-desc a, .project-desc a:visited {
-    color: #333;
-}
-
-.project-desc a:hover {
-    color: #6d56c1;
-    text-decoration: none;
-}
-
-/* Education */
-
-.school-logo {
-    width: 55px;
-    margin-right: 20px;
-    float: left;
-}
-
-#education h4, #contact h4 {
-    margin-bottom: 0;
-}
-
-/* Contact */
-
-#contact {
-    background-color: #372c5e;
-}
-
-#contact ul {
-    list-style-type: none;
-    margin: 40px 0 0;
-    padding: 40px;
-    border-radius: 4px;
-    -webkit-transition-property: box-shadow; /* Safari */
-    -webkit-transition-duration: .8s; /* Safari */
-    transition-property: box-shadow;
-    transition-duration: .8s;
-
-}
-
-#contact ul:hover {
-    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 0 0px rgba(0, 0, 0, 0.1) inset;
-    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 0 0px rgba(0, 0, 0, 0.1) inset;
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 0 0px rgba(0, 0, 0, 0.1) inset;
-}
-
-#contact li {
-    list-style-type: none;
-    padding: 5px 0;
-}
-
-#contact, #contact a, #contact a:visited {
-    /* color: #fff; */
-}
-
-.project-tags li {
-    float: left;
-    /* border: 1px solid #ccc; */
-    text-transform: uppercase;
-    font-size: .75em;
-    list-style-type: none;
-    padding: 5px 8px;
-    margin: 10px 8px 0px 0;
-}
-
-.fasi {
-    /* border: 1px solid #ccc; */
-    width: 30px;
-    text-align: right;
-    display: inline-block;
-    margin-right: 5px;
-}
-
-.modal-body img {
-    width: 100%;
-}
-
-.drop-shadow {
-    background: #fff;
-    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 0 0px rgba(0, 0, 0, 0.1) inset;
-    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 0 0px rgba(0, 0, 0, 0.1) inset;
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 0 0px rgba(0, 0, 0, 0.1) inset;
-    border-radius: 4px;
-}
-
-.color3 {
-    background: #6d56c1;
-}
-
-.forest {
-    background-image: url('../images/forest2.png');
-    background-position-x: center;
-    background-position-y: bottom;
-    background-repeat: no-repeat;
-    background-size: 2000px auto;
-}
-                            
-.frozen {
-    background-image: url('../images/frozen.png');
-    background-position-x: center;
-    background-position-y: top;
-    background-repeat: no-repeat;
-    background-size: 2000px auto;
-    margin-top: -50px;
-    /* padding-top: 130px; */
-}
-
-#education {
-    /* background: #6d56c1; */
-    /* color: #fff; */
-}
-
-
-.col-lg-10 {
-    padding-bottom: 150px;
-}
-
-#topbar {
-    background: #e14a3a;
-    height: 130px;
-    position: absolute;
-    width: 100%;
-    top: 0;
-    z-index: 1;
-}
-
-footer {
-    text-transform: uppercase;
-    font-size: .8em;
-    background: #372c5e;
-    color: #666;
-    text-align: center;
-}
-
-.bridge {
-    background-position-x: center;
-    background-position-y: bottom;
-    background-repeat: no-repeat;
-    background-size: 1920px auto;
-    /* color: #fff; */
-}
-
-.b1 {
-    background-image: url('../images/bridge.jpg');
-    background-position-y: -263px;
-}
-
-.b2 {
-    background-image: url('../images/city-skyline-719951.jpg');
-}
-
-.b3 {
-    background-image: url("../images/contact-bg1.jpg");
-}
-
-.bridge li {
-    list-style-type: none;
-}
-
-.bridge a, .bridge a:visited {
-    /* color: #fff; */
-}
-
-.bridge .about-wrap {
-    padding: 10px 35px;
-    margin-bottom: 10px;
-}
-
-
-.heading-h3 {
-    text-transform: uppercase;
-    font-weight: 800;
-    letter-spacing: .1em;
-    /* color: red !important; */
-    margin-bottom: 0;
-}
-
-.drop-shadow {
-    background: #fff;
-    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 0 0px rgba(0, 0, 0, 0.1) inset;
-    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 0 0px rgba(0, 0, 0, 0.1) inset;
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 0 0px rgba(0, 0, 0, 0.1) inset;
-    border-radius: 4px;
-}
-
-
-.content-bg {
-    background: #fff;
-    padding: 20px 60px;
-    /* margin-top: 80px; */
-    /* box-shadow: 0px 10px 10px rgba(0,0,0,.15); */
-    margin-top: -60px;
-    /* box-shadow: 0px 10px 10px rgba(0,0,0,.15); */
-    z-index: 10;
-    margin-bottom: 105px;
-    border-radius: 12px;
-    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,f6f6f6+94 */
-    background: #ffffff; /* Old browsers */
-    background: -moz-linear-gradient(45deg,  #ffffff 0%, #f6f6f6 94%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(45deg,  #ffffff 0%,#f6f6f6 94%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(45deg,  #ffffff 0%,#f6f6f6 94%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-    border-top: 20px solid #ccc;
-    border-bottom: 20px solid #ccc;
-}
-
-.hspacer {
-    margin-top: -100px;
-}
 
 
 
-@media (max-width: 575.98px) { 
-    #logo-image {
-        width: 100%;
-        float: none;
-        margin: 0;
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    body {
+        background: #f1f1f1;
     }
-};
 
+    #logo-image {
+        width: 20%;
+    }
 
+    .content-bg {
+        padding: 60px;
+        margin: 40px;
+    }
 
+    .project-div h4 {
+        margin: 20px 0 0;
+        background: #6f75b6;
+        padding: 20px 10px;
+        color: #fff;
+    }
+
+    .project-div img {
+        width: 70%;
+        margin: 30px 0;
+        border-radius: 10px;
+    }
+
+    .project-div p {
+        width: 70%;
+        margin: 0 auto 20px;
+    }
+
+}

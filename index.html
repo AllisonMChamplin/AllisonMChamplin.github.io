@@ -17,7 +17,6 @@
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Lato|Poppins&display=swap" rel="stylesheet">
-    <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap" rel="stylesheet"> -->
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
@@ -28,9 +27,7 @@
 
 <body data-spy="scroll" data-target="#navbarTarget" id="page-top">
 
-    <div id="top-bar"></div>
-
-    <nav class="navbar navbar-expand-sm navbar-light justify-content-center mynav fixed-top">
+    <nav class="navbar navbar-expand-md navbar-dark justify-content-center">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTarget"
             aria-controls="navbarTarget" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -59,39 +56,35 @@
     <section id="home" class="lake">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-9 mx-auto c-block shift">
+                <div class="col-sm text-center">
                     <img src="assets/images/8-11-avatar3.png" id="logo-image"
                         alt="Cartoon woman's face with short brown hair and glasses.">
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-9 mx-auto c-block">
+                <div class="col-sm text-center">
                     <h3 class="heading-h3">Allison Champlin</h3>
-                    <h4 class="heading-h4">Full Stack Web Developer</h4>
+                    <h4 class="heading-h4">Web Developer</h4>
                 </div>
             </div>
         </div>
     </section>
 
-
-
     <section id="about" class="forest">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-9 mx-auto content-bg drop-shadow">
+                <div class="col-sm content-bg drop-shadow">
                     <h3>About Me</h3>
-                    <p class="lead">I am a future-oriented full-stack developer who is
-                        passionate
-                        about thoughtful,
+                    <p class="lead">I am a future-oriented full-stack developer who is passionate about thoughtful,
                         efficient code and advancing standards, security and accessibility.<br><br></p>
-                    <div class="about-wrap clearfix">
-                        <div class="about-left"> Location:<br> Email:<br> Website:</div>
-                        <div class="about-right">Twin Cities, Minnesota<br><a
-                                href="mailto:allisonmchamplin@gmail.com">AllisonMChamplin@gmail.com</a><br><a
-                                href="https://allisonmchamplin.github.io/">allisonmchamplin.github.io/</a></div>
-                    </div>
-                    <p class="clearfix"><br></p>
-                    <p class="clearfix"><br></p>
+                    <p class="lead text-center">
+                        <span class="about-content">
+                            Location: <br>Twin Cities, Minnesota<br><br>
+                            Email: <br><a
+                                href="mailto:allisonmchamplin@gmail.com">AllisonMChamplin@gmail.com</a><br><br>
+                            Website: <br><a
+                                href="https://allisonmchamplin.github.io/">allisonmchamplin.github.io/</a></span>
+                    </p>
                     <div class="top-arrow">
                         <a href="#page-top"><i class='shape59'></i></a>
                     </div>
@@ -101,160 +94,244 @@
     </section>
 
     <section id="projects">
-        <div class="container">
+
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-9 mx-auto content-bg drop-shadow">
+                <div class="col-sm content-bg drop-shadow">
                     <h3>Projects</h3>
-                    <p class="lead">Here is a selection of some of my recent projects:<br><br></p>
-                    <!-- Book Club App -->
-                    <div class="project-div clearfix">
-                        <div class="project-screen">
-                            <img src="./assets/images/bookclub.jpg" alt="Book Club">
-                        </div>
-                        <div class="project-desc">
-                            <h4><a href="https://beluga2.herokuapp.com/" target="_blank"
-                                    title="View the Book Club site">Social Book Club with Node.js, Express and
-                                    mySQL</a>
-                            </h4>
-                            <p class="card-text">This full-stack social book club site allows users to create a
-                                profile, create a book club, join a book club, and create club events.<br></p>
+                    <p class="lead">Here is a selection of some of my recent projects:</p>
 
-                            <p class="card-text">
-                                <a href="https://beluga2.herokuapp.com/" target="_blank"
-                                    title="View the Book Club site">&raquo; View Deployed Site</a><br>
-                                <a href="https://github.com/AllisonMChamplin/Project_2" target="_blank"
-                                    title="View the source">&raquo; View Source</a><br>
-                            </p>
-                            <ul class="project-tags clearfix">
-                                <li>HTML5</li>
-                                <li>CSS3</li>
-                                <li>Javascript</li>
-                                <li>Node.JS</li>
-                                <li>Express</li>
-                                <li>mySQL</li>
-                                <li>Bootstrap</li>
-                                <li>jQuery</li>
-                            </ul>
+                    <div class="card-deck">
+
+                        <!-- Scraper site -->
+                        <div class="card drop-shadow">
+                            <img class="card-img-top" src="./assets/images/recipes.jpg" alt="Recipe Scraper">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <a href="https://powerful-anchorage-54737.herokuapp.com/" target="_blank"
+                                        title="View the Recipe Scraper site">Recipe Scraper with
+                                        Node.js, Express and
+                                        mongoDb</a>
+                                </h5>
+                                <p class="card-text">A web app that lets users to scrape new recipes, and save,
+                                    view and
+                                    leave comments on recipes.</p>
+                                <p class="card-text">
+                                    <a href="https://powerful-anchorage-54737.herokuapp.com/" target="_blank"
+                                        title="View the Recipe Scraper site" class="btn">&raquo; View
+                                        Deployed Site</a>
+                                    <a href="https://github.com/AllisonMChamplin/MongoSocialScraper" target="_blank"
+                                        title="View the source" class="btn">&raquo; View
+                                        Source</a><br>
+                                </p>
+                                <p class="card-text">
+                                    <ul class="project-tags clearfix">
+                                        <li>HTML5</li>
+                                        <li>CSS3</li>
+                                        <li>Javascript</li>
+                                        <li>Node.JS</li>
+                                        <li>Express</li>
+                                        <li>mongoDB</li>
+                                        <li>Bootstrap</li>
+                                        <li>jQuery</li>
+                                    </ul>
+                                </p>
+                            </div>
                         </div>
+                        <!-- Book Club App -->
+                        <div class="card drop-shadow">
+                            <img class="card-img-top" src="./assets/images/bookclub.jpg" alt="Book Club"
+                                style="border-bottom: 1px solid #ccc">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <a href="https://beluga2.herokuapp.com/" target="_blank"
+                                        title="View the Book Club site">Social Book Club
+                                        with Node.js, Express and mySQL
+                                    </a>
+                                </h5>
+                                <p class="card-text">This full-stack social book club site allows users to create a
+                                    profile, create a book club,
+                                    join a book club, and create
+                                    club events.</p>
+                                <p class="card-text">
+                                    <a href="https://beluga2.herokuapp.com/" target="_blank"
+                                        title="View the deployed site" class="btn">&raquo;
+                                        View
+                                        Deployed Site</a>
+                                    <a href="https://github.com/AllisonMChamplin/Project_2" target="_blank"
+                                        title="View the source" class="btn">&raquo; View
+                                        Source</a><br>
+                                </p>
+                                <p class="card-text">
+                                    <ul class="project-tags clearfix">
+                                        <li>HTML5</li>
+                                        <li>CSS3</li>
+                                        <li>Javascript</li>
+                                        <li>Node.JS</li>
+                                        <li>Express</li>
+                                        <li>mySQL</li>
+                                        <li>Bootstrap</li>
+                                        <li>jQuery</li>
+                                    </ul>
+                                </p>
+                            </div>
+                        </div>
+                        <!-- End -->
+
                     </div>
-                    <br><br>
-                    <!-- End -->
+                    <div class="card-deck">
 
-                    <!-- Burger MVC Project -->
-                    <div class="project-div clearfix">
-                        <div class="project-screen">
-                            <img src="./assets/images/burger-mvc.jpg" alt="Burger MVC">
+                        <!-- MVC App -->
+                        <div class="card drop-shadow">
+                            <img class="card-img-top" src="./assets/images/burger-mvc.jpg" alt="Burger MVC">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <a href="https://limitless-refuge-69546.herokuapp.com/" target="_blank"
+                                        title="View the Burger MVC site">MVC
+                                        with Node.js, Express and
+                                        mySQL</a>
+                                </h5>
+                                <p class="card-text">This is a burger logger with MySQL, Node,
+                                    Express,
+                                    Handlebars and
+                                    a homemade ORM.</p>
+                                <p class="card-text">
+                                    <a href="https://limitless-refuge-69546.herokuapp.com/" target="_blank"
+                                        title="View the Burger MVC site" class="btn">&raquo; View Deployed
+                                        Site</a><br>
+                                    <a href="https://github.com/AllisonMChamplin/Node-Express-Handlebars"
+                                        target="_blank" title="View the source" class="btn">&raquo; View
+                                        Source</a><br>
+                                </p>
+                                <p class="card-text">
+                                    <ul class="project-tags clearfix">
+                                        <li>HTML5</li>
+                                        <li>CSS3</li>
+                                        <li>Javascript</li>
+                                        <li>Node.JS</li>
+                                        <li>Express</li>
+                                        <li>mySQL</li>
+                                        <li>Handlebars</li>
+                                    </ul>
+                                </p>
+                            </div>
                         </div>
-                        <div class="project-desc">
-                            <h4><a href="https://limitless-refuge-69546.herokuapp.com/" target="_blank"
-                                    title="View the Burger MVC site">Burger MVC with Node.js, Express and mySQL</a>
-                            </h4>
-                            <p class="card-text">This is a silly burger logger with MySQL, Node, Express, Handlebars and a homemade ORM.<br></p>
-                            <p class="card-text">
-                                <a href="https://limitless-refuge-69546.herokuapp.com/" target="_blank"
-                                    title="View the Burger MVC site">&raquo; View Deployed Site</a><br>
-                                <a href="https://github.com/AllisonMChamplin/Node-Express-Handlebars" target="_blank"
-                                    title="View the source">&raquo; View Source</a><br>
-                            </p>
-                            <ul class="project-tags clearfix">
-                                <li>HTML5</li>
-                                <li>CSS3</li>
-                                <li>Javascript</li>
-                                <li>Node.JS</li>
-                                <li>Express</li>
-                                <li>mySQL</li>
-                                <li>Handlebars</li>
-                            </ul>
+                        <!-- End -->
+                        <!-- FriendFinder App -->
+                        <div class="card drop-shadow">
+                            <img class="card-img-top" src="./assets/images/friend-finder.jpg" alt="FriendFinder">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <a href="https://friendsift.herokuapp.com/" target="_blank"
+                                        title="View the FriendFinder site">FriendFinder
+                                        with
+                                        Node.js and
+                                        Express</a>
+                                </h5>
+                                <p class="card-text">This site takes in results from users'
+                                    surveys, then
+                                    compares their answers with those from other users. The app
+                                    will then
+                                    display
+                                    the
+                                    name and picture of the user with the best overall
+                                    match.</p>
+                                <p class="card-text">
+                                    <a href="https://friendsift.herokuapp.com/" target="_blank"
+                                        title="View the FriendFinder site" class="btn">&raquo;
+                                        View Deployed
+                                        Site</a><br>
+                                    <a href="https://github.com/AllisonMChamplin/friendfinder" target="_blank"
+                                        title="View the FriendFinder source" class="btn">&raquo; View
+                                        Source</a><br>
+                                </p>
+                                <p class="card-text">
+                                    <ul class="project-tags clearfix">
+                                        <li>HTML5</li>
+                                        <li>CSS3</li>
+                                        <li>Javascript</li>
+                                        <li>Node.JS</li>
+                                        <li>Express</li>
+                                    </ul>
+                                </p>
+                            </div>
                         </div>
+                        <!-- End -->
+
                     </div>
-                    <br><br>
-                    <!-- End -->
 
-                    <!-- FriendFinder Project -->
-                    <div class="project-div clearfix">
-                        <div class="project-screen">
-                            <img src="./assets/images/friend-finder.jpg" alt="FriendFinder">
+                    <div class="card-deck">
+                        <!-- Food Data Central App -->
+                        <div class="card drop-shadow">
+                            <img class="card-img-top" src="./assets/images/food-data.jpg"
+                                alt="Screenshot of Food Data Central">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <a href="https://allisonmchamplin.github.io/ProjectOne/" target="_blank"
+                                        title="Visit the Food Data Central Site">Food Data
+                                        Central</a>
+                                </h5>
+                                <p class="card-text">A fun app designed for kids to learn about
+                                    nutrition that
+                                    queries
+                                    the USDA Food
+                                    Database.<br>
+                                </p>
+                                <p class="card-text">
+                                    <a href="https://allisonmchamplin.github.io/ProjectOne/" target="_blank"
+                                        title="Visit the Food Data Central Site" class="btn">&raquo; Visit
+                                        Site</a><br>
+                                    <a href="https://github.com/AllisonMChamplin/ProjectOne" target="_blank"
+                                        title="View the Food Data Central Source" class="btn">&raquo; View
+                                        Source</a>
+                                </p>
+                                <p class="card-text">
+                                    <ul class="project-tags clearfix">
+                                        <li>HTML5</li>
+                                        <li>CSS3</li>
+                                        <li>Javascript</li>
+                                    </ul>
+                                </p>
+                            </div>
                         </div>
-                        <div class="project-desc">
-                            <h4><a href="https://friendsift.herokuapp.com/" target="_blank"
-                                    title="View the FriendFinder site">FriendFinder with Node.js and Express</a>
-                            </h4>
-                            <p class="card-text">This site takes in results from users' surveys, then
-                                compares their answers with those from other users. The app will then display
-                                the
-                                name and picture of the user with the best overall match.<br></p>
-                            <p class="card-text">
-                                <a href="https://friendsift.herokuapp.com/" target="_blank"
-                                    title="View the FriendFinder site">&raquo; View Deployed Site</a><br>
-                                <a href="https://github.com/AllisonMChamplin/friendfinder" target="_blank"
-                                    title="View the FriendFinder source">&raquo; View Source</a><br>
-                            </p>
-                            <ul class="project-tags clearfix">
-                                <li>HTML5</li>
-                                <li>CSS3</li>
-                                <li>Javascript</li>
-                                <li>Node.JS</li>
-                                <li>Express</li>
-                            </ul>
+                        <!-- End -->
+
+                        <!-- Placeholder -->
+                        <div class="card" style="border: 0;">
+                            <div class="card-body">
+                            </div>
                         </div>
+                        <!-- End -->
+
                     </div>
-                    <br><br>
-                    <!-- End -->
 
-                    <!-- Food Data Central Project -->
-                    <div class="project-div clearfix">
-                        <div class="project-screen">
-                            <img src="./assets/images/food-data.jpg" alt="Screenshot of Food Data Central">
-                        </div>
-                        <div class="project-desc">
-                            <h4 class="card-title"><a href="https://allisonmchamplin.github.io/ProjectOne/"
-                                    target="_blank" title="Visit the Food Data Central Site">Food Data Central</a>
-                            </h4>
-                            <p class="card-text">A fun app designed for kids to learn about nutrition that queries
-                                the USDA Food
-                                Database.<br><br></p>
-
-                            <p class="card-text">
-                                <a href="https://allisonmchamplin.github.io/ProjectOne/" target="_blank"
-                                    title="Visit the Food Data Central Site">&raquo; Visit Site</a><br>
-                                <a href="https://github.com/AllisonMChamplin/ProjectOne" target="_blank"
-                                    title="View the Food Data Central Source">&raquo; View Source</a>
-                            </p>
-                            <ul class="project-tags clearfix">
-                                <li>HTML5</li>
-                                <li>CSS3</li>
-                                <li>Javascript</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <br><br>
-                    <!-- End -->
                     <div class="top-arrow">
                         <a href="#page-top"><i class='shape59'></i></a>
                     </div>
+
                 </div>
             </div>
         </div>
+
     </section>
 
 
     <section id="education" class="city-street">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-9 mx-auto content-bg drop-shadow">
+                <div class="col-sm content-bg drop-shadow">
                     <h3>Education</h3>
                     <p class="lead">I am currently enrolled in the coding boot camp through the University of
                         Minnesota Twin
                         Cities. I graduate in October.<br><br></p>
                     <img src="./assets/images/uofmlogo.png" alt="University of Minnesota" class="school-logo">
                     <h4>Full Stack Web Developer Boot Camp</h4>
-                    <p class="lead">University of Minnesota - <em>Summer 2019 </em>|<em> St. Paul, MN</em></p>
-                    <br><br>
-                    <hr><br><br>
+                    <p class="lead">University of Minnesota |<em> St. Paul, MN</em></p>
+                    <hr>
                     <h4><img src="./assets/images/stolaflogo.png" alt="St. Olaf College" class="school-logo">B.A. in
                         Biology</h4>
                     <p class="lead">St. Olaf College |<em> Northfield, MN</em></p>
-                    <br><br><br><br>
+
                     <div class="top-arrow">
                         <a href="#page-top"><i class='shape59'></i></a>
                     </div>
@@ -265,9 +342,9 @@
 
 
     <section id="contact" class="bridge b1">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-9 mx-auto mb-5 content-bg drop-shadow">
+                <div class="col-sm mb-5 content-bg drop-shadow">
                     <h3>Contact</h3>
 
                     <div class="about-wrap clearfix">
@@ -343,11 +420,11 @@
     </section>
 
 
-    <footer class="color1">
+    <!-- <footer class="color1">
         <div class="col">
             <br>&copy; Copyright 2019<br><br>
         </div>
-    </footer>
+    </footer> -->
 
     <!-- </main> -->
 
