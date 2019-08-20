@@ -318,4 +318,8 @@ ul.navbar-nav li {
         margin: 0 auto 20px;
     }
 
+    .card {
+        margin: 10px 30px !important;
+    }
+
 }
