@@ -6,7 +6,8 @@ body {
     font-family: 'Lato', sans-serif;
     font-Size: 18px;
     color: #666;
-    background: #372c5e;
+    /* background: #372c5e; */
+    
 }
 
 img {
@@ -28,7 +29,13 @@ a:hover {
 .shape59{ display:inline-block!important;position:relative;width:30px;height:30px;border-radius:100%;background-color:#6D56C1;border:calc(30px/8) solid #6D56C1;box-sizing:content-box}
 .shape59:before{ position:absolute;content:'';margin:auto;width:calc(30px/3.5);height:calc(30px/3.5);background:rgba(0,0,0,0);border:calc(30px/8) solid #fff;border-right:none;border-top:none;top:calc(30px/8);bottom:0;left:0;right:0;transform:rotate(135deg);box-sizing:content-box}
 .shape59:hover { background-color:#8c70f0;}
-.top-arrow { text-align: center; margin-top: 20px; padding-top: 40px; clear: both; }
+.top-arrow {     text-align: center;
+    margin-top: 20px;
+    padding-top: 40px;
+    clear: both;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 50px;
+    margin-bottom: 30px; }
 
 h1, h2, h3, h4, h5 {
     /* font-family: 'Open Sans', sans-serif; */
@@ -39,14 +46,14 @@ h4 {
     /* font-size: 1.3rem !important; */
 }
 
-.content-bg h3 {
+h3 {
     border-left: 12px solid #ccc;
     padding-left: 20px;
     padding: 10px 20px;
-    background: #fff;
     border-radius: 2px;
-    margin-top: 20px;
+    margin-top: 60px !important;
     margin-bottom: 40px;
+    border-right: 12px solid #ccc;
 }
 
 
@@ -114,13 +121,13 @@ ul.navbar-nav li {
     margin: 15px;
 }
 
-.drop-shadow {
+/* .drop-shadow {
     background: #fff;
     -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2), 0 0 0px rgba(0, 0, 0, 0.2) inset;
     -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2), 0 0 0px rgba(0, 0, 0, 0.2) inset;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2), 0 0 0px rgba(0, 0, 0, 0.2) inset;
     border-radius: 4px;
-}
+} */
 
 
 
@@ -150,13 +157,9 @@ ul.navbar-nav li {
 
 .about-content {
     width: 100%;
-    border: 1px solid #cccccc;
     padding: 20px;
     display: block;
     margin: 0 auto;
-    border-radius: 10px;
-    /* background: #8570a8; */
-    border-bottom: 10px solid #8570a8;
 }
 
 .btn {
@@ -218,7 +221,7 @@ ul.navbar-nav li {
 
 .card {
     border: 0;
-    border-bottom: 10px solid #8570a8;
+    /* border-bottom: 10px solid #8570a8; */
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
 }
@@ -234,9 +237,22 @@ ul.navbar-nav li {
 
 .card img {
     border: 1px solid #ccc;
+    width: 40%;
+    float: right;
+    margin: 10px 0 10px 20px;
 }
 
+.card-header {
+    background: #333;
+    color: #fff;
+}
 
+.heading-h3 {
+    margin: 0 auto !important;   
+    width: 75%; 
+    border-left: 12px solid #fff;
+    border-right: 12px solid #fff;
+}
 
 /* Education */
 .school-logo {
@@ -289,13 +305,23 @@ ul.navbar-nav li {
     text-align: left;
 }
 
-
+.card-body {
+    border: 1px solid #ccc;
+}
 
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
     body {
-        background: #f1f1f1;
+        background: #fff;
+    }
+
+    .container {
+        width: 75%;
+    }
+
+    h3 {
+        margin-top: 40px;
     }
 
     #logo-image {
@@ -333,7 +359,9 @@ ul.navbar-nav li {
         margin: 20px 0px 20px;
     }
 
-
+    .card {
+        margin: 30px auto 40px auto !important;
+    }
     
 
 }
